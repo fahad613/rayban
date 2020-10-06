@@ -1,0 +1,202 @@
+.bg{
+    background-color: #e36541;
+}
+.color-head li a{
+    border-bottom: 2px solid transparent;
+    color: rgb(192, 189, 189);
+    font-weight: 500;
+}
+.color-head li a:focus{
+    border-bottom: 2px solid #000000;
+    padding-left: 0px;
+    font-weight: 500;
+}
+.border-home {
+    border-right: 1px solid #dbd5d5;
+    padding-right: 40px;
+}
+.search-1 {
+    float: right;
+    background-color: transparent;
+    border: none;
+}
+.search-1 input{
+    border: none;
+    background-color: transparent;
+
+}
+.search-1 input:active{
+    border: transparent;
+    outline: none;
+}
+.search-1 i{
+    font-size: 18px;
+    border-right: 1px solid #dbd5d5;
+    padding: 10px 4px;
+}
+input:focus{
+    outline: none;
+    
+
+}
+.bor{
+    border: none;
+}
+
+/*...........................banner-1..................................*/
+.banner-1{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.vertical-align img{ 
+   margin-top: 50%;
+}
+.btn-1{
+    color: #ffffff;
+    background-color: #52a461;
+    font-weight: bold;
+    border-radius: 0px;
+    border: 1px solid #51a460;
+}
+
+/*...........................banner-2..................................*/
+  .banner-2 h5{
+      font-size: 20px;
+  }
+  .banner-2 h4{
+    font-size: 20px;
+}
+  .card-img{
+      border-radius: 0px;
+      border: none;
+  }
+  .btn-2{
+    color: #ffffff;
+    background-color: #7ab6ce;
+    border-radius: 0px;
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+.pb2{
+    padding-bottom: 16px;
+}
+.banner-2-border{
+    border-right: 1px solid #cecbcb;
+}
+.pa-2{
+    padding-top: 11px;
+}
+/*...........................banner-3..................................*/
+.btn-3{
+    color: #ffffff;
+    background-color: #f19b13;
+    border-radius: 0px;
+    border: 1px solid #f19b13;
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+.pp {
+    padding-top: 12px;
+}
+.banner-3 h3{
+    font-size: 22px;
+}
+.pt3{
+    padding-top: 30px;
+}
+.hr{
+    border-bottom: 1px solid #cec8c8;
+    padding: 15px 0px;
+}
+.hr2{
+    padding: 15px 0px 2px 0px;
+}
+.pagin{
+    padding-left: 30px;
+}
+/*...........................footer ..................................*/
+.i-con-1{
+    color: rgb(138, 136, 136);
+}
+
+@media  screen and (max-width: 450px) {
+    .border-home {
+        padding-right: 3px;
+    }
+    .vertical-align img{ 
+        margin-top: 20%;
+     }
+     .footer h4{
+         font-size: 16px;
+     }
+}
+
+@media  screen and (max-width: 768px) {
+    .vertical-align img{ 
+        margin-top: 100%;
+     }
+    .pb2{
+        padding-bottom: 1px;
+    }
+    .btn-2{
+        color: #ffffff;
+        background-color: #7ab6ce;
+        font-size: 8px;
+    }
+
+    .mr0{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+@media  screen and (max-width: 1024px) {
+    .pb2{
+        padding-bottom: 16px;
+    }
+    .banner-2 h5{
+        font-size: 12px;
+        padding-bottom: 3px;
+        font-weight: bold;
+    }
+    .banner-2 h4{
+        font-size: 16px;
+    }
+    .hr{
+        border-bottom: 1px solid #cec8c8;
+        padding: 11px 0px;
+    }
+    .hr2{
+        padding: 11px 0px 0px 0px;
+    }
+    .banner-3 h2{
+        font-size: 16px;
+        padding-top: 7px;
+    }
+    .banner-3 p{
+        font-size: 12px;
+    }
+    .banner-3 h4{
+        font-size: 22px;
+        padding-top: 18px;
+    }
+    
+    
+}
+@media  screen and (max-width: 1023px) {
+    .pt3{
+        padding-top: 0px;
+    }
+    .vertical-align img{ 
+        margin-top: 10%;
+     }
+     .pagin{
+        padding-left: 5px;
+    }
+    .pp {
+        padding-top: 0px;
+    }
+
+}
